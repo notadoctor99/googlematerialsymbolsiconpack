@@ -1,0 +1,13 @@
+type: IconLibrary
+name: GoogleMaterialSymbols
+displayName: Google Material Symbols
+description: Icons generated from Google Material Symbols glyphs
+version: 1.0
+
+author: NotADoctor99
+copyright: Copyright (c) 2023 NotADoctor99. All rights reserved.
+license: Apache License Version 2.0
+licenseUrl: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+homePageUrl: https://github.com/notadoctor99/googlematerialsymbolsiconpack
+supportPageUrl: https://github.com/notadoctor99/googlematerialsymbolsiconpack/issues

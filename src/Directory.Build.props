@@ -1,0 +1,19 @@
+<Project>
+
+    <PropertyGroup>
+        <WarningLevel>4</WarningLevel>
+        <Deterministic>false</Deterministic>
+    </PropertyGroup>
+  
+    <PropertyGroup>
+        <BaseIntermediateOutputPath>$(SolutionDir)..\obj\</BaseIntermediateOutputPath>
+        <MSBuildProjectExtensionsPath>$(BaseIntermediateOutputPath)$(Configuration)\projects\$(MSBuildProjectName)\</MSBuildProjectExtensionsPath>
+        <BaseOutputPath>$(SolutionDir)..\bin\</BaseOutputPath>
+        <OutputPath>$(BaseOutputPath)$(Configuration)\</OutputPath>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(SolutionDir[1])'==':'">
+        <DefineConstants>WINDOWS</DefineConstants>
+    </PropertyGroup>
+  
+</Project>
